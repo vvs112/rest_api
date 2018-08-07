@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Initial suite"  verbose="1">
+    <listeners>
+        <listener class-name="api.LogListener"/>
+        <listener class-name="api.ExtentReporter"/>
+    </listeners>
+    <test name="get methods">
+        <classes>
+            <class name="reqres_in.GetMethods"></class>
+        </classes>
+    </test>
+    <test name="post methods">
+        <classes>
+            <class name="reqres_in.PostMethods"></class>
+        </classes>
+    </test>
+    <test name="Factory">
+        <classes>
+            <class name="reqres_in.GetFactoryMethods"></class>
+        </classes>
+    </test>
+</suite>

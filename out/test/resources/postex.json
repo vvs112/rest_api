@@ -1,0 +1,28 @@
+{
+   "time_period":{
+      "start":{
+         "expression":"after",
+         "amount":132000000
+      },
+      "end":{
+         "expression":"after",
+         "amount":432000000
+      }
+   },
+   "conditions":[
+      {
+         "name":"temp",
+         "expression":"$gt",
+         "amount":299
+      }
+   ],
+   "area":[
+      {
+         "type":"Point",
+         "coordinates":[
+            53,
+            37
+         ]
+      }
+   ]
+}
